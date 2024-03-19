@@ -202,3 +202,24 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
 
 ![스크린샷 2024-03-19 180002](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/b014a85f-7c5b-4816-bc00-f93d4cb6ad6b)
 ---
+
+### 책소개/작가소개/서평 기반 키워드 도서 추천 시스템
+#### 최은서
+
+- 책소개, 작가소개, 서평이 포함된 알라딘 교보문고 통합 북리스트 테이블을 통해 키워드 기반 도서 추천 시스템을 구축한다. 
+- 추천 시스템 진행 방식은 아래와 같다. 
+
+1. 사용자가 키워드를 검색할 컬럼을 선택한다. 
+
+![](https://velog.velcdn.com/images/eschoi2402/post/3ab18090-285f-4857-b2e9-8cce0906a679/image.png)
+
+2. 컬럼 선택 후 원하는 키워드를 입력한다. 
+
+![](https://velog.velcdn.com/images/eschoi2402/post/6d360889-5e77-4771-bc40-74e63477ee2f/image.png)
+
+3. 해당 키워드를 가장 많이 보유한 상위 5권의 책 제목이 출력된다. 
+
+![](https://velog.velcdn.com/images/eschoi2402/post/0d51045a-ece8-4208-b021-60be3c129528/image.png)
+
+
+
