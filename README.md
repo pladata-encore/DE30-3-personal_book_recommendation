@@ -54,6 +54,7 @@ selenium을 활용하여 동적 크롤링을 진행하였고 수집된 html을 �
 
 ## 📚교보문고
 ### 교보 리뷰수집(k_review_crolling)
+
 #### 장지원
 교보 상세페이지에서 리뷰가 있는 부분 api url 주소를 사용하였다. <br />
 ![](https://velog.velcdn.com/images/jiw0707/post/26adb92d-9334-4496-b0ae-4e0e42398c08/image.png) <br />
@@ -61,6 +62,33 @@ page 번호와 saleCmdtid만 변경되는 부분을 이용하여 함수를 만�
 page번호 범위는 1페이지부터 10페이지 까지로 지정해주었고,<br />
 saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보 csv 파일에서 추출하여 리스트를 만들어주었다.<br />
 ***
+
+### 교보문고 연간 베스트셀러 정보 수집
+#### 곽태호
+- 교보문고 페이지를 동적 크롤링으로 진행했다.
+- 수집한 데이터:
+19년도 - 23년도 연간 베스트 셀러의 
+책 제목, 책 내용, 작가, 작가 정보, 서평, 가격, 리뷰 수, 총 평점, isbn, 페이지 수, 카테고리, saleCmdtid(책 정보 관련 페이지의 주소 끝자리)
+- 연간 베스트셀러는 약 200권으로, 총 권수 800권 정도의 책 데이터를 추출했다.
+- 이 중 작가 정보, 서평은 '펼치기'를 눌러야 텍스트 전체가 나와 추가로 button 함수를 넣었다.
+---
+
+![](https://velog.velcdn.com/images/taehokk/post/5b83bb8a-aab4-4be2-8de9-da16d2b92fb4/image.png)
+###### 펼치기 누르기 전
+
+![](https://velog.velcdn.com/images/taehokk/posㅡㅍt/79160de4-dda4-41da-b37d-ee86f8bdbbb4/image.png)
+###### 펼치기 누른 후
+---
+- 전처리
+1. 데이터 전처리 전에 먼저 교보문고, 알라딘 두 데이터의 칼럼 이름 일치시켰다.
+2. 두 데이터를 합칠 때 concat 함수를 사용했다.
+3. concat으로 인해 발생한 데이터 중복을 제거했다.
+4. isbn이 null인 데이터는 사용할 수가 없어 제거했다.
+5. 책 제목의 ()안에 필요없는 부분이 많아 ()안에 있는 문자열을 제거했다.
+   (예시: 돈의 속성(300쇄 리커버에디션))
+
+
+
 # 데이터 분석
 
 ## 평점/키워드 기반 책 출력(지원_Review_based_random_output)
@@ -109,3 +137,6 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
    작가 정보를 추가하여 출력한다.<br />
    ![](https://velog.velcdn.com/images/jiw0707/post/a69a625f-c245-4789-af1c-4ebf0539b8a6/image.png) - 단어리스트
    ![](https://velog.velcdn.com/images/jiw0707/post/3c9f513f-caa5-48e7-8eee-e03bd8e59978/image.png)
+
+
+   
