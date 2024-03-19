@@ -80,7 +80,6 @@ selenium을 활용하여 동적 크롤링을 진행하였고 수집된 html을 �
 1. 전처리할 파일의 정보를 확인한다.(첫 번째 행 출력, 행/열 수 출력, 인코딩 등)
 ![](https://velog.velcdn.com/images/eschoi2402/post/3c7aba9b-7b5b-482f-a26f-ab297f9d3a17/image.png)
 
-
 2. 각 컬럼의 데이터타입을 파악한다.
 ![](https://velog.velcdn.com/images/eschoi2402/post/83fcf53b-b1d6-4bf4-bf4c-ce59d3a44892/image.png)
 
