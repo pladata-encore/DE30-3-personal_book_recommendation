@@ -75,7 +75,7 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
 
 ![](https://velog.velcdn.com/images/taehokk/post/5b83bb8a-aab4-4be2-8de9-da16d2b92fb4/image.png)
 ###### 펼치기 누르기 전
-
+---
 
 ![](https://velog.velcdn.com/images/taehokk/post/cab79077-6b77-43b9-931d-d630871255f1/image.png)
 ###### 펼치기 누른 후
