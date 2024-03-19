@@ -76,9 +76,12 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
 ![](https://velog.velcdn.com/images/taehokk/post/5b83bb8a-aab4-4be2-8de9-da16d2b92fb4/image.png)
 ###### 펼치기 누르기 전
 
+
 ![](https://velog.velcdn.com/images/taehokk/posㅡㅍt/79160de4-dda4-41da-b37d-ee86f8bdbbb4/image.png)
 ###### 펼치기 누른 후
 ---
+
+
 - 전처리
 1. 데이터 전처리 전에 먼저 교보문고, 알라딘 두 데이터의 칼럼 이름 일치시켰다.
 2. 두 데이터를 합칠 때 concat 함수를 사용했다.
