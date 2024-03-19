@@ -50,7 +50,44 @@ selenium을 활용하여 동적 크롤링을 진행하였고 수집된 html을 �
 **3. 데이터 병합**<br />
 수집된 데이터는 팀원에게 전달하여 다른 책 정보와 병합을 요청하였다.<br />
 
+### review 수 가져오기
+#### 최은서
 
+
+- 아래 사진 속 ‘(286)’과 같은 도서 별 리뷰 수를 추출할 것. 
+
+![](https://velog.velcdn.com/images/eschoi2402/post/838e9b6f-787c-4627-a02a-43eee86928bd/image.png)
+
+- 다른 파일과 병합 시 공통칼럼이 존재해야하므로 각 도서의 isbn을 함께 추출할 것.
+- 추가로 제목과 작가명, 판매가격도 함께 추출.
+![](https://velog.velcdn.com/images/eschoi2402/post/e19c390d-6806-4bd9-bec0-1a12c8e205cb/image.png)
+
+
+- 알라딘 웹페이지에는 한 페이지 당 지정 연도의 50위까지만 보여줌. 따라서, url의 ‘year’값과 ‘page’값을 변경해 리뷰 수를 크롤링할 것.
+    - ex) page=1 → 1-50위, page=2 → 51-100위 등
+
+
+### 파일 병합
+#### 최은서
+
+- 크롤링을 통해 얻은 정보들이 담긴 4개의 파일을 공통칼럼 기준으로 병합한다.
+- 'inner join'을 통해 겹치지 않는 값은 누락시킨다.
+- 최종적으로 병합된 파일의 컬럼은 아래와 같다.
+ ![](https://velog.velcdn.com/images/eschoi2402/post/db4982c4-86eb-44bd-92ef-ea3ae205de01/image.png)
+
+#### 전처리
+
+1. 전처리할 파일의 정보를 확인한다.(첫 번째 행 출력, 행/열 수 출력, 인코딩 등)
+![](https://velog.velcdn.com/images/eschoi2402/post/3c7aba9b-7b5b-482f-a26f-ab297f9d3a17/image.png)
+
+
+2. 각 컬럼의 데이터타입을 파악한다.
+![](https://velog.velcdn.com/images/eschoi2402/post/83fcf53b-b1d6-4bf4-bf4c-ce59d3a44892/image.png)
+
+3. 필요에 따라 컬럼의 데이터타입을 변경한다. 
+4. 쉼표, 단위 등을 제거한다.
+
+   
 
 ## 📚교보문고
 ### 교보 리뷰수집(k_review_crolling)
