@@ -142,19 +142,4 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
    ![](https://velog.velcdn.com/images/jiw0707/post/3c9f513f-caa5-48e7-8eee-e03bd8e59978/image.png)
 
 
-### 소영이 누나가 준 유사도 코드를 통한 시각화
-#### 곽태호
 
-- 유사도가 높은 책 5권 추출하여 bar차트와 파이 차트 추출
-![](https://velog.velcdn.com/images/taehokk/post/5ca768b8-d9bd-4164-a586-b0379eac600e/image.png)
-![](https://velog.velcdn.com/images/taehokk/post/e59a10ae-b7ad-4f77-ade4-8a4f4e63ae0b/image.png)
-
-- 위의 5권의 가격을 bar차트로 추출
-![](https://velog.velcdn.com/images/taehokk/post/cf5848cc-6b44-471f-8310-490fd59c52cd/image.png)
-
-- 위의 5권의 총 평점 그래프 추출 
-![](https://velog.velcdn.com/images/taehokk/post/7ac67833-6f6b-4ed8-8f3d-7d36e86a9065/image.png)
-
-- 위의 5권의 관련 문장 추출
-
-![](https://velog.velcdn.com/images/taehokk/post/d50f44d3-c6ed-4c3e-a8e7-2909eb142b39/image.png)
