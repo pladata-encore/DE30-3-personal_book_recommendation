@@ -14,6 +14,7 @@
 ![](https://velog.velcdn.com/images/devysy55/post/d5d8f945-4169-4617-a294-cfc0be506970/image.png)
 
 - 구글 공유문서 활용 데이터 기획
+\
 ![](https://velog.velcdn.com/images/devysy55/post/3eb3a3ba-b596-49a8-a04d-0b55a2c10f34/image.png)
 
 
