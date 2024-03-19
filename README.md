@@ -146,6 +146,9 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
 ---
 ### 유사도 코드를 바탕으로 시각화를 진행 (소영이 누나 코드)
 #### 곽태호
+- 키워드를 통해 관련 책 시각화
+- 키워드: 데이터, 영어, 수학
+
 - 유사도가 높은 책 5권 추출하여 bar차트와 파이 차트 추출 <br />
 ![top_books](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/18298801-f3bd-4641-96af-7791e11707b6)
 
