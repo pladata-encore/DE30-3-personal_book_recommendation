@@ -146,17 +146,20 @@ saleCmdtid 범위는 교보에서 제공하는 연간 베스트 순위 책정보
 
 ### 소영이 누나가 준 유사도 코드를 바탕으로 시각화를 진행했다.
 #### 곽태호
-- 유사도가 높은 책 5권 추출하여 bar차트와 파이 차트 추출
-![](https://velog.velcdn.com/images/taehokk/post/e6344f3c-f80f-46cf-a877-2c64ca7a9c50/image.png)
-![](https://velog.velcdn.com/images/taehokk/post/a9780a4d-1075-404d-aeb5-dce1d9320885/image.png)
+- 유사도가 높은 책 5권 추출하여 bar차트와 파이 차트 추출 <br />
+![top_books](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/18298801-f3bd-4641-96af-7791e11707b6)
 
----
-- 위의 5권의 가격을 bar차트로 추출
-![](https://velog.velcdn.com/images/taehokk/post/a42742ed-5331-471e-9798-bd6e2fcc8032/image.png)
----
-- 위의 5권의 총 평점 그래프 추출
-![](https://velog.velcdn.com/images/taehokk/post/dc9e7a82-1c71-417d-b806-f2cb1c376399/image.png)
----
-- 위의 5권의 관련 문장 추출
-![스크린샷 2024-03-19 180002](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/7bf51113-54db-4a61-b5d3-7707914560cf)
+![top_books_pie](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/eee21a8b-a812-47ba-a3ee-5c2f8c62a89e)
+
+- 위의 5권의 가격을 bar차트로 추출 <br />
+![book_prices](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/2e3320b2-2e4b-4506-b6bd-c7dbe67db768)
+
+
+- 위의 5권의 총 평점 그래프 추출 <br />
+![ratings_bubble](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/cebf3a0f-06e7-4bd4-b61a-afb110ebda25)
+
+
+- 위의 5권의 관련 문장 추출 <br />
+
+![스크린샷 2024-03-19 180002](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/150890899/b014a85f-7c5b-4816-bc00-f93d4cb6ad6b)
 
