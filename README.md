@@ -10,7 +10,7 @@
    -  `os`,  `time`, `re`, `collections` <br />
    
 **작업 툴**
-   - `Jupyter Notebook`
+   - `Jupyter Lab`
    - `VScode`
    
 
