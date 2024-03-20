@@ -1,6 +1,19 @@
 # 도서 정보 및 리뷰 데이터 기반 추천 프로젝트
 <br />
 
+**사용언어** <br /> ![image](https://github.com/pladata-encore/DE30-3-personal_book_recommendation/assets/161932948/ef3a4384-7c35-45a3-a114-21f23830c499) <br />
+**사용 라이브러리**
+   - `konlpy`
+   - `pandas`, `numpy`, `csv`, `json`
+   - `matplotlib`
+   - `selenium`, `Beautifulsoup`
+   -  `os`,  `time`, `re`, `collections` <br />
+   
+**작업 툴**
+   - `Jupyter Notebook`
+   - `VScode`
+   
+
 # 프로젝트 개요
 
 ## 🚀프로젝트 소개
